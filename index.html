@@ -7,7 +7,7 @@
     <title>Your Books</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Livros </a>
                 </li>
-                   </li>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Autores</a>
                 </li>
@@ -33,68 +33,76 @@
             <form class="d-flex my-2 my-lg-0">
                 <input class="form-control me-sm-2" type="text" placeholder="Search" />
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                    Procurar
+                    Search
                 </button>
             </form>
         </div>
     </nav>
-
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/imgCSLewis.jpg" class="d-block w-100" alt="...">
+    <!--Carrossel-->
+    <div class="carrossel-boot">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-item">
-                <img src="img/imgSuzanneCollinsFinal.svg" class="d-block w-100" alt="...">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/imgCSLewis.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/imgSuzanneCollinsFinal.svg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/imgRebecca.svg" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="./img/imgRebecca.svg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="img/imgCronicas.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">As Crônicas de Nárnia</h5>
-            <p class="card-text">Um livro que narra a história de quatro crianças que descobrem um mundo mágico acessível por portais, cheio de aventuras e mistérios.</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
-        <img src="img/imgJogosVorazes.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Jogos Vorazes</h5>
-            <p class="card-text">A história se passa em uma nação futurista e totalitária chamada Panem, governada pela poderosa Capital. Para manter o controle, o governo obriga seus 12 distritos a enviar um garoto e uma garota para os Jogos Vorazes. </p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+    <!--Card-->
+<div class="cards"></div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="./img/imgCronicas.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">As Crônicas de Nárnia</h5>
+                    <p class="card-text">Um livro que narra a história de quatro crianças que descobrem um mundo mágico acessível por portais, cheio de aventuras e mistérios.</p>
+                </div> 
+            </div>
         </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="img/imgQuartaAsa.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Quarta Asa</h5>
-            <p class="card-text">Narra a história de uma jovem de 20 anos que esperava viver tranquilamente como escriba. Forçada por sua mãe, a general comandante, ela é jogada no brutal Colégio de Guerra Basgiath.</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+        <div class="col">
+            <div class="card h-100">
+                <img src="./img/imgJogosVorazes.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jogos Vorazes</h5>
+                    <p class="card-text">A história se passa em uma nação futurista e totalitária chamada Panem, governada pela poderosa Capital. Para manter o controle, o governo obriga seus 12 distritos a enviar um garoto e uma garota para os Jogos Vorazes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="./img/imgQuartaAsa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Quarta Asa</h5>
+                    <p class="card-text">Narra a história de uma jovem de 20 anos que esperava viver tranquilamente como escriba. Forçada por sua mãe, a general comandante, ela é jogada no brutal Colégio de Guerra Basgiath.</p>
+                </div>
+            </div>
         </div>
     </div>
 
