@@ -8,15 +8,20 @@
     width: 1200px;
 }
 
-.cards {
+.cards{
+    width: 50%;
     margin: auto;
-    margin-top: 20px;
-    width: 100px;
 }
 
+
 .card-img-top {
+    margin: auto;
     width: 250px;
     padding: 20px;
-    margin-left: 25px;
     margin-top: 10px;
+}
+.col{
+    margin: auto;
+    width: 400px;
+    margin-top: 50px;
 }
