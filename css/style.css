@@ -2,6 +2,9 @@
     background-color: rgb(97, 58, 2);
 }
 
+body{
+    background-color: rgb(204, 188, 168);
+}
 .carrossel-boot {
     margin: auto;
     margin-top: 20px;
@@ -11,6 +14,7 @@
 .cards{
     width: 50%;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 
@@ -24,4 +28,31 @@
     margin: auto;
     width: 400px;
     margin-top: 50px;
+}
+.footer{
+    background-color: rgb(76, 53, 38);
+}
+.carousel-inner{
+    border-radius: 20px;
+}
+.card{
+    background-color: #e4d5c8;
+}
+.btn{
+    background-color:#7b5941;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(97, 58, 2);
+    color: aliceblue;
+    border-color: rgb(204, 188, 168);
+}
+.d-flex{
+    margin-right: 15px;
+}
+.navbar-nav{
+    margin-left: 35px;
+}
+.navbar-brand{
+    margin-left: 35px;
 }
